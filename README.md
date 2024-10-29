@@ -37,8 +37,12 @@ To get a local copy up and running, follow these steps:
 
 **Set up the Database:**
 
-   - Create a MySQL database called `notes_app` (or choose a name and update config).
-   - Import the SQL file provided (e.g., `notes_app.sql`) to set up tables.
+   - Create a MySQL database called `notes` (or choose a name and update config) in `phpmyadmin`.
+   - set a table named `notes` with 4 rows-> id,title,description,date.
+   - set the `id` to auto increment.
+   - set the `title` to be `VARCHAR` with 255 length.
+   - set the `description` to be `VARCHAR` 1024 length.
+   - set the `date` to be `DATETIMESTAMP`.
 
 **Configure the Database Connection:**
 
