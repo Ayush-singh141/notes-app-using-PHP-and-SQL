@@ -34,6 +34,7 @@ A simple web-based Notes application built with PHP, SQL, HTML, and CSS that all
 To get a local copy up and running, follow these steps:
 
 **Copy the provided file to `C:\xampp\htdocs`**
+
 **Set up the Database:**
 
    - Create a MySQL database called `notes_app` (or choose a name and update config).
